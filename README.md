@@ -24,7 +24,7 @@ muliti line
 
 `npm install gridsome-plugin-remark-container`
 or
-`yarn gridsome-plugin-remark-container`
+`yarn add gridsome-plugin-remark-container`
 
 ```md
 :::tip title
