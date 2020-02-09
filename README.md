@@ -7,13 +7,13 @@ Based on [remark-container](https://github.com/zWingz/remark-container) and [mar
 ## Example
 
 ``` markdown
-::: tip
+:::tip
 content
 :::
 ```
 
 ``` markdown
-::: tip title
+:::tip title
 content
 
 muliti line
@@ -27,7 +27,7 @@ or
 `yarn gridsome-plugin-remark-container`
 
 ```md
-::: tip title
+:::tip title
 hello
 :::
 ```
