@@ -1,0 +1,45 @@
+{
+  "name": "gridsome-plugin-remark-container",
+  "version": "0.0.1",
+  "description": "Markdown parsing for custom containers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/index.js",
+    "prebuild": "yarn test",
+    "build": "bili --format umd --module-name remarkContainer index.js",
+    "prepublish": "yarn build"
+  },
+  "files": [
+    "src/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nevenall/remark-containers.git"
+  },
+  "keywords": [
+    "markdown",
+    "remark",
+    "unified"
+  ],
+  "author": "Dan 'nevenall' Behlings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nevenall/remark-containers/issues"
+  },
+  "homepage": "https://github.com/nevenall/remark-containers#readme",
+  "devDependencies": {
+    
+    "rehype-format": "^3.0.0",
+    "rehype-parse": "^6.0.2",
+    "rehype-remark": "^7.0.0",
+    "rehype-stringify": "^6.0.1",
+    "remark": "^10.0.1",
+    "remark-html": "^9.0.0",
+    "remark-parse": "^7.0.2",
+    "remark-rehype": "^5.0.0",
+    "unified": "^8.4.2",
+    "unist-util-visit": "^2.0.1",
+    "vfile-reporter": "^6.0.0"
+  }
+}
