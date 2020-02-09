@@ -4,11 +4,7 @@
   "description": "Markdown parsing for custom containers",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint src/index.js",
-    "prebuild": "yarn test",
-    "build": "bili --format umd --module-name remarkContainer index.js",
-    "prepublish": "yarn build"
+    "test": "jest"
   },
   "files": [
     "src/**"
