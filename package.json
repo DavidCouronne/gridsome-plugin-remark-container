@@ -15,19 +15,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nevenall/remark-containers.git"
+    "url": "https://github.com/DavidCouronne/gridsome-plugin-remark-container"
   },
   "keywords": [
     "markdown",
     "remark",
-    "unified"
+    "unified",
+    "gridsome"
   ],
-  "author": "Dan 'nevenall' Behlings",
+  "author": "David Couronné",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nevenall/remark-containers/issues"
+    "url": "https://github.com/DavidCouronne/gridsome-plugin-remark-container/issues"
   },
-  "homepage": "https://github.com/nevenall/remark-containers#readme",
+  "homepage": "https://github.com/DavidCouronne/gridsome-plugin-remark-container#readme",
   "devDependencies": {
     
     "rehype-format": "^3.0.0",
