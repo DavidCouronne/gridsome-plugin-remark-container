@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 /* base admonitions variables hight contrast */
 :root {
   --cb-admonition-background-color: #3578e5;
@@ -77,3 +78,5 @@
 .admonition-warning {
   --cb-admonition-background-color: var(--cb-color-warning);
 }
+
+/* purgecss end ignore */

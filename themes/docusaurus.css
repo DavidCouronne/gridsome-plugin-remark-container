@@ -1,4 +1,5 @@
-/* base admonitions variables on off infima variables */
+/* purgecss start ignore */
+/* base admonitions variables on  variables */
 :root {
     --cb-admonition-background-color: inherit;
     --cb-admonition-border-width: 1px;
@@ -80,3 +81,5 @@
   .admonition-warning {
     --cb-admonition-background-color: var(--cb-color-warning);
   }
+
+  /* purgecss end ignore */
