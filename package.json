@@ -1,13 +1,14 @@
 {
   "name": "gridsome-plugin-remark-container",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdown parsing for custom containers",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
   "files": [
-    "src/**"
+    "src/**",
+    "themes/**"
   ],
   "repository": {
     "type": "git",
