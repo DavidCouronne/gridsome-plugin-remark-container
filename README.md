@@ -21,23 +21,21 @@ module.exports = {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       anchorClassName: "icon icon-link",
-      plugins: [
-        "gridsome-plugin-remark-container",
-      ]
+      plugins: ["gridsome-plugin-remark-container"]
     }
   }
-}
+};
 ```
 
 ```js
 // main.js
-import 'gridsome-plugin-remark-container/themes/default.css'
+import "gridsome-plugin-remark-container/themes/default.css";
 //or
-import 'gridsome-plugin-remark-container/themes/docusaurus.css'
+import "gridsome-plugin-remark-container/themes/docusaurus.css";
 //or
-import 'gridsome-plugin-remark-container/themes/classic.css'
+import "gridsome-plugin-remark-container/themes/classic.css";
 //or
-import 'gridsome-plugin-remark-container/themes/vuepress.css'
+import "gridsome-plugin-remark-container/themes/vuepress.css";
 ```
 
 ## Usage
@@ -79,7 +77,7 @@ The `customTypes` option can be used to add additional types. You can set the sv
 For example, this will allow you to generate blocks with the `custom` keyword.
 
 ```js
-\\\gridsome.config.js;
+//gridsome.config.js;
 module.exports = {
 
   .....
@@ -106,10 +104,6 @@ module.exports = {
 
 };
 ```
-
-
-
-
 
 # Credit
 
