@@ -33,4 +33,4 @@ hello
 ```
 ## Samples
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/tree/master/snapshots)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_1.png)
