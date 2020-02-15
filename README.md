@@ -1,22 +1,16 @@
 # gridsome-plugin-remark-container
- gridsome plugin remark container
 
+gridsome plugin remark container
 
-Based on [remark-container](https://github.com/zWingz/remark-container) and [markdown-it-container](https://github.com/markdown-it/markdown-it-container)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_1.png)
+
+Based on [remarkable-admonitions](https://github.com/zWingz/remarkable-admonitions)
 
 ## Example
 
-``` markdown
+```markdown
 :::tip
 content
-:::
-```
-
-``` markdown
-:::tip title
-content
-
-muliti line
 :::
 ```
 
@@ -26,11 +20,15 @@ muliti line
 or
 `yarn add gridsome-plugin-remark-container`
 
-```md
-:::tip title
-hello
-:::
 ```
+\\ gridsome.config.js
+module.exports = {
+  plugins: ['gridsome-plugin-remark-container']
+}
+```
+
 ## Samples
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_1.png)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_2.png)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_3.png)
