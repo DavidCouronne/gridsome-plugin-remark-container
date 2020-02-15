@@ -13,7 +13,7 @@ or
 `yarn add gridsome-plugin-remark-container`
 
 ```js
-\\ gridsome.config.js
+// gridsome.config.js
 module.exports = {
   transformers: {
     //Add markdown support to all file-system sources
@@ -30,12 +30,14 @@ module.exports = {
 ```
 
 ```js
-\\ main.js
-require('gridsome-plugin-remark-container/default.css');
-\\or
-require('gridsome-plugin-remark-container/docusaurus.css');
-\\or
-require('gridsome-plugin-remark-container/vuepress.css');
+// main.js
+import 'gridsome-plugin-remark-container/themes/default.css'
+//or
+import 'gridsome-plugin-remark-container/themes/docusaurus.css'
+//or
+import 'gridsome-plugin-remark-container/themes/classic.css'
+//or
+import 'gridsome-plugin-remark-container/themes/vuepress.css'
 ```
 
 ## Usage
