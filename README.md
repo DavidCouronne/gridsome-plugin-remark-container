@@ -32,3 +32,9 @@ module.exports = {
 ![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_2.png)
 
 ![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_3.png)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_4.png)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_5.png)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_6.png)
