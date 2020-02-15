@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-remark-container",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Markdown parsing for custom containers",
   "main": "src/index.js",
   "scripts": {
@@ -17,9 +17,9 @@
     "markdown",
     "remark",
     "unified",
-    "gridsome",   
+    "gridsome",
     "gridsome-plugin",
-    "container",    
+    "container",
     "vuejs"
   ],
   "author": "David Couronné",
@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/DavidCouronne/gridsome-plugin-remark-container#readme",
   "devDependencies": {
-    
     "rehype-format": "^3.0.0",
     "rehype-parse": "^6.0.2",
     "rehype-remark": "^7.0.0",
@@ -41,5 +40,10 @@
     "unified": "^8.4.2",
     "unist-util-visit": "^2.0.1",
     "vfile-reporter": "^6.0.0"
+  },
+  "dependencies": {
+    "rehype-parse": "^6.0.2",
+    "unified": "^8.4.2",
+    "unist-util-visit": "^2.0.1"
   }
 }

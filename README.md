@@ -31,12 +31,6 @@ or
 hello
 :::
 ```
+## Samples
 
-output
-
-```html
-<div class="custom-block tip">
-  <p class="custom-block-title">title</p>
-  <p>hello</p>
-</div>
-```
+![image]()
