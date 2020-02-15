@@ -27,6 +27,15 @@ module.exports = {
 }
 ```
 
+```js
+\\ main.js
+require('gridsome-plugin-remark-container/default.css');
+\\or
+require('gridsome-plugin-remark-container/docusaurus.css');
+\\or
+require('gridsome-plugin-remark-container/vuepress.css');
+```
+
 ## Samples
 
 ![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_2.png)
