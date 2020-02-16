@@ -4,7 +4,7 @@
   "description": "Markdown parsing for custom containers",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "node test/index.js",
     "lint": "vue-cli-service lint"
   },
   "files": [
@@ -40,10 +40,13 @@
     "@vue/cli-service": "^4.2.2",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.0.3",
+    "diff": "^4.0.2",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.1.2",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
+    "rehype-document": "^3.2.1",
     "rehype-format": "^3.0.0",
     "rehype-parse": "^6.0.2",
     "rehype-remark": "^7.0.0",
@@ -51,6 +54,7 @@
     "remark": "^11.0.2",
     "remark-html": "^10.0.0",
     "remark-rehype": "^5.0.0",
+    "to-vfile": "^6.0.0",
     "vfile-reporter": "^6.0.0"
   }
 }
