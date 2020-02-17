@@ -62,7 +62,7 @@ The default keywords are `important`, `tip`, `note`, `warning`, `danger` and `de
 
 ![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/set-title.png?raw=true)
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/details-blocks.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/details-block.png?raw=true)
 
 ![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/cant-nest.png?raw=true)
 
