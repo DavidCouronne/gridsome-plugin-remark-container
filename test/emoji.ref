@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>component</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="admonition admonition-tip">
+      <div class="admonition-heading">
+        <h5>
+          <div class="admonition-icon">💡</div>title</h5>
+      </div>
+      <div class="admonition-content">
+        <p>content</p>
+      </div>
+    </div>
+  </body>
+</html>
