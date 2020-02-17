@@ -13,7 +13,7 @@ const NEWLINE = '\n'
 const defaultOptions = {
   customTypes: [], //custom types here.
   useDefaultTypes: true, //set to false if you don't want to use default types
-  tag: ':::', 
+  tag: ':::',
   icons: 'svg', //can be 'emoji' or 'none'
   classMaster: 'admonition' //generate admonition-content, admonition-icon, admonition-heading
 }
@@ -27,7 +27,9 @@ const configure = options => {
 
   return {
     ...baseOptions,
-    types: baseOptions.useDefaultTypes ? { ...types, ...customTypes } : {...customTypes}
+    types: baseOptions.useDefaultTypes
+      ? { ...types, ...customTypes }
+      : { ...customTypes }
   }
 }
 
@@ -115,6 +117,10 @@ module.exports = function attacher(options) {
     const contentString = content.join(NEWLINE).replace(escapeTag, config.tag)
     const add = eat(opening + food.join(NEWLINE))
 
+    // create settings
+    const entry = config.types[keyword]
+    const settings = typeof entry === 'string' ? config.types[entry] : entry
+
     // parse the content in block mode
     const exit = this.enterBlock()
     const contentNodes = element(
@@ -123,11 +129,14 @@ module.exports = function attacher(options) {
       this.tokenizeBlock(contentString, now)
     )
     exit()
+
     // parse the title in inline mode
-    const titleNodes = this.tokenizeInline(title || keyword, now)
+    const titleNodes = this.tokenizeInline(
+      title || settings.defaultTitle || keyword,
+      now
+    )
     // create the nodes for the icon
-    const entry = config.types[keyword]
-    const settings = typeof entry === 'string' ? config.types[entry] : entry
+
     let iconContainerNodes = []
     let iconNodes = ''
     if (settings.svg && settings.emoji) {
