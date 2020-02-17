@@ -2,7 +2,7 @@
 
 gridsome plugin remark container
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_1.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/hero.png?raw=true)
 
 Based on [remarkable-admonitions](https://github.com/zWingz/remarkable-admonitions)
 
@@ -60,15 +60,25 @@ The default keywords are `important`, `tip`, `note`, `warning`, `danger` and `de
 
 ## Samples
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_2.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/set-title.png?raw=true)
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_3.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/details-blocks.png?raw=true)
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_4.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/cant-nest.png?raw=true)
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_5.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/nest.png?raw=true)
 
-![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/snapshots/snapshot_6.png?raw=true)
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/accessibility.png?raw=true)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/credit.png?raw=true)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/custom.png?raw=true)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/vuepress.png?raw=true)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/docusaurus.png?raw=true)
+
+![image](https://github.com/DavidCouronne/gridsome-plugin-remark-container/blob/master/screenshots/vuetify.png?raw=true)
 
 ## Custom Types
 
